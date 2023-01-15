@@ -59,6 +59,13 @@
   background-color: lightgrey;
 }
 
+.counter-container {
+  margin-bottom: 1.5em;
+}
+.counter-container p, .counter-container h2 {
+  color: #09440f;
+}
+
 /* Features */
 
 .jumbotron {
@@ -103,6 +110,11 @@ footer img{
 @media all and (max-width:576px){
   .client {
     width: 50%;
+  }
+
+  /* landing - zmniejszenie countera */
+  .counter-container p, .counter-container h2 {
+    font-size: 1em;
   }
 }
 
