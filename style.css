@@ -64,6 +64,7 @@
 }
 .counter-container p, .counter-container h2 {
   color: #09440f;
+  font-size: 1.5em;
 }
 
 /* Features */
