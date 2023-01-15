@@ -1,7 +1,7 @@
 
 
 .navbar {
-  background-color: black;
+  background-color: #09440f;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
@@ -59,6 +59,22 @@
   background-color: lightgrey;
 }
 
+.counter-container {
+  margin-bottom: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container p, .counter-container h2 {
+  color: #09440f;
+  font-size: 2em;
+}
+
+.counter-container p {
+  margin-right: 1em;
+}
+
 /* Features */
 
 .jumbotron {
@@ -103,6 +119,11 @@ footer img{
 @media all and (max-width:576px){
   .client {
     width: 50%;
+  }
+
+  /* landing - zmniejszenie countera */
+  .counter-container p, .counter-container h2 {
+    font-size: 1em;
   }
 }
 
