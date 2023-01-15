@@ -20,13 +20,13 @@
 }
 
 .navbar .nabar-nav .nav-link:hover {
-  color: cadetblue;
+  color: cadetblue;s
 }
 
 /* lounding */
 
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/hero.jpg);
   background-size: contain;
   z-index: 1;
 }
