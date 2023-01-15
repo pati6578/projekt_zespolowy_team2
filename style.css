@@ -23,10 +23,10 @@
   color: cadetblue;
 }
 
-/* lounding */
+/* landing */
 
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/hero.jpg);
   background-size: contain;
   z-index: 1;
 }
@@ -36,6 +36,23 @@
   color:white;
   position: absolute;
   top: 40%;
+}
+
+.caption h1 {
+  color: #09440f;
+}
+
+.caption a {
+  background-color: #09440f;
+  color: #fff;
+  transition: all .3s linear;
+  border: 1px solid #09440f;
+}
+.caption a:hover {
+  background-color: #fff;
+  color: #09440f;
+  transition: all .3s linear;
+  border: 1px solid #09440f;
 }
 
 #course {
