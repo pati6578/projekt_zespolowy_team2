@@ -89,6 +89,7 @@
   list-style: none;
 }
 
+
 .client {
   width: 90%;
   border-radius: 50%;
@@ -114,6 +115,8 @@ footer img{
   height: 2.5rem;
   margin: 0.5rem 0;
 }
+
+
 
 /* Own @media rules */
 @media all and (max-width:576px){
