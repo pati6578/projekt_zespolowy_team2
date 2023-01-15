@@ -44,6 +44,19 @@
 
 /* Features */
 
+#features {
+  background-color: lightgrey;
+}
+
+.slide {
+  width:100%;
+}
+
+.carousel-caption {
+  opacity: 60%;
+}
+
+/* resources */
 .jumbotron {
   color:black;
   margin-bottom: 0;
@@ -52,9 +65,7 @@
   background-color: lightgrey;
 }
 
-.features-list {
-  list-style: none;
-}
+/* clients */
 
 .client {
   width: 90%;
@@ -65,7 +76,6 @@
 .blockquote {
   width: 90%;
 }
-
 
 /* contact */
 footer,
@@ -86,6 +96,9 @@ footer img{
 @media all and (max-width:576px){
   .client {
     width: 50%;
+  }
+  #features {
+    display: none;
   }
 }
 
