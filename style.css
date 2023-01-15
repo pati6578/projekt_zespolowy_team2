@@ -58,13 +58,24 @@
 
 .client {
   width: 90%;
-  border-radius: 50%;
+  border-radius: 60%%;
+ 
   min-width:15vw;
+  
 }
 
 .blockquote {
   width: 90%;
 }
+.button{
+  
+display: inline-block;
+margin: 0 auto;
+color:green;
+}
+
+
+
 
 
 /* contact */
