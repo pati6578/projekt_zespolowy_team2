@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RWD - schemat strony</title>
+    <title>Team 2 - projekt wiosna</title>
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/fixed.css" />
@@ -41,10 +41,10 @@ KONTAKT -->
               <a href="#course" class="nav-link">KURS</a>
             </li>
             <li class="nav-item">
-              <a href="#features" class="nav-link">MOŻLIWOŚCI</a>
+              <a href="#summer" class="nav-link">WIOSNA</a>
             </li>
             <li class="nav-item">
-              <a href="resources" class="nav-link">ZASOBY</a>
+              <a href="#resources" class="nav-link">CECHY WIOSNY</a>
             </li>
             <li class="nav-item">
               <a href="#clients" class="nav-link">KLIENCI</a>
@@ -60,11 +60,18 @@ KONTAKT -->
           <div class="home-inner"></div>
         </div>
       </div>
-
+      
       <div class="text-center caption">
-        <h1>Witaj na kursie nauki RWD</h1>
+        <h1>Wiosna już za...</h1>
+        <div class="counter-container">
+          <p id="days"></p>
+          <p id="hours"></p>
+          <p id="mins"></p>
+          <p id="secs"></p>
+          <h2 id="end"></h2>
+        </div>
         <a class="btn btn-outline-secondary btn-lg" href="#course"
-          >Przejdź do kursu</a
+          >Dowiedz się więcej</a
         >
       </div>
     </div>
@@ -85,16 +92,58 @@ KONTAKT -->
     <!-- End COURSE section -->
 
     <!-- start FEATURES -->
-    <div id="features">
-      <div class="jumbotron text-center">
-        <h2>Poznaj zagadnienienia:</h2>
-        <ul class="features-list">
-          <li>Tworzenie layoutów HTML/CSS/RWD</li>
-          <li>Programowanie w JS z ES6+</li>
-          <li>React w najnowszej wersji</li>
-          <li>Pracy w zespołach projektowych z GIT-em</li>
-        </ul>
-        <hr class="line" />
+    <div id="summer">
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#arouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#arouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slide d-block mx-auto" src="img/spring1.jpg" alt="photo1">
+            <div class="carousel-caption bg-dark d-none d-md-block">
+              <h5>Photo 1</h5>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="slide d-block mx-auto" src="img/spring2.jpg" alt="photo2">
+            <div class="carousel-caption bg-dark d-none d-md-block">
+              <h5>Photo 2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="slide d-block mx-auto" src="img/spring3.jpg" alt="photo3">
+            <div class="carousel-caption bg-dark d-none d-md-block">
+              <h5>Photo 3</h5>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="slide d-block mx-auto" src="img/spring4.jpg" alt="photo4">
+            <div class="carousel-caption bg-dark d-none d-md-block">
+              <h5>Photo 4</h5>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="slide d-block mx-auto" src="img/spring5.jpg" alt="photo5">
+            <div class="carousel-caption bg-dark d-none d-md-block">
+              <h5>Photo 5</h5>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
       </div>
     </div>
     <!-- end FEATURES -->
@@ -105,13 +154,13 @@ KONTAKT -->
       <div class="jumbotron">
         <div class="narrow">
           <div class="heading col-12">
-            <h3 class="text-center">Zobacz nasze zasoby:</h3>
+            <h3 class="text-center">Wiosenny powiew świeżości:</h3>
           </div>
           <div class="row text-center">
             <div class="col-4">
               <div class="resource">
-                <i class="fab fa-js-square fa-5x"></i>
-                <h3>Javascript</h3>
+                <i class="fas fa-spa fa-5x" style="color:magenta"></i>
+                <h3>Wszystko rozkwita!</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Nesciunt, aspernatur quos. Rem in dolor neque dicta maiores
@@ -125,8 +174,8 @@ KONTAKT -->
             </div>
             <div class="col-4">
               <div class="resource">
-                <i class="fas fa-terminal fa-5x"></i>
-                <h3>Konsola</h3>
+                <i class="fas fa-laugh-beam fa-5x fa-spin" style="color:rgb(46, 171, 88)"></i>
+                <h3>Uśmiechnij się!</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Nesciunt, aspernatur quos. Rem in dolor neque dicta maiores
@@ -140,8 +189,8 @@ KONTAKT -->
             </div>
             <div class="col-4">
               <div class="resource">
-                <i class="fab fa-btc fa-5x"></i>
-                <h3>Crypto</h3>
+                <i class="fas fa-cloud-sun fa-5x" style="color:yellow"></i>
+                <h3>Piękna pogoda</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Nesciunt, aspernatur quos. Rem in dolor neque dicta maiores
@@ -206,12 +255,14 @@ KONTAKT -->
                 <hr class="jumbo-line" />
                 <footer class="blockquote-footer">
                   <cite>Jacek Malinowski</cite>
+                  <button type="button " id="button" class="btn btn-secondary">Zobacz więcej opini</button>
+                
+                
                 </footer>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
 
@@ -221,8 +272,17 @@ KONTAKT -->
         <div class="col-12 text-center">
           <h3 class="heading">Kontakt do twórców:</h3>
           <img src="img/Logo.jpeg" alt="LOGO" />
+          <i class="fa-brands fa-youtube"></i>
+          <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
           <p>Lorem ipsum dolor sit amet.</p>
           <strong>Informacje pod numerem 444333222</strong>
+
+          
+          <i class="fab fa-youtube"></i>
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+          <p>&copy; Copyright by ..... </p>
+
           <hr />
           <a href="https://www.youtube.com" target="_blank">
             <i class="fab fa-youtube-square fa-2x"></i>
@@ -230,17 +290,18 @@ KONTAKT -->
           <a href="https://www.amazon.com" target="_blank">
             <i class="fab fa-amazon fa-2x"></i>
           </a>
-          <p>&copy; Copyright by ..... </p>
+          <p>&copy; Copyright by .....</p>
+
         </div>
       </footer>
     </div>
-<!-- end contact -->
-
+    <!-- end contact -->
 
     <!--- Script Source Files -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script src="js/app.js"></script>
     <!--- End of Script Source Files -->
   </body>
 </html>

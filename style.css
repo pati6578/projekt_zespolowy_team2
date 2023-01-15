@@ -1,7 +1,7 @@
 
 
 .navbar {
-  background-color: black;
+  background-color: #09440f;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
@@ -23,10 +23,10 @@
   color: cadetblue;
 }
 
-/* lounding */
+/* landing */
 
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/hero.jpg);
   background-size: contain;
   z-index: 1;
 }
@@ -38,12 +38,58 @@
   top: 40%;
 }
 
+.caption h1 {
+  color: #09440f;
+}
+
+.caption a {
+  background-color: #09440f;
+  color: #fff;
+  transition: all .3s linear;
+  border: 1px solid #09440f;
+}
+.caption a:hover {
+  background-color: #fff;
+  color: #09440f;
+  transition: all .3s linear;
+  border: 1px solid #09440f;
+}
+
 #course {
   background-color: lightgrey;
 }
 
+.counter-container {
+  margin-bottom: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container p, .counter-container h2 {
+  color: #09440f;
+  font-size: 2em;
+}
+
+.counter-container p {
+  margin-right: 1em;
+}
+
 /* Features */
 
+#features {
+  background-color: lightgrey;
+}
+
+.slide {
+  width:100%;
+}
+
+.carousel-caption {
+  opacity: 60%;
+}
+
+/* resources */
 .jumbotron {
   color:black;
   margin-bottom: 0;
@@ -52,19 +98,28 @@
   background-color: lightgrey;
 }
 
-.features-list {
-  list-style: none;
-}
+/* clients */
+
 
 .client {
   width: 90%;
-  border-radius: 50%;
+  border-radius: 60%%;
+ 
   min-width:15vw;
+  
 }
 
 .blockquote {
   width: 90%;
 }
+.button{
+  
+display: inline-block;
+margin: 0 auto;
+color:green;
+}
+
+
 
 
 /* contact */
@@ -82,10 +137,21 @@ footer img{
   margin: 0.5rem 0;
 }
 
+
+
 /* Own @media rules */
 @media all and (max-width:576px){
   .client {
     width: 50%;
+  }
+
+  #features {
+    display: none;
+
+  /* landing - zmniejszenie countera */
+  .counter-container p, .counter-container h2 {
+    font-size: 1em;
+
   }
 }
 
